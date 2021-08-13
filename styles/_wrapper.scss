@@ -1,0 +1,40 @@
+/*
+GLOBALES
+*/
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  section h2 {
+    font-size: 3.6rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  section h2:last-child {
+    margin-bottom: 0;
+  }
+
+/*LAYOUT*/
+.wrapper {
+    @extend %box_wrapper;
+}
+
+
+
